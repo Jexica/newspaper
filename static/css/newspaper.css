@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+#page-wrapper {
+    background-color: lightyellow;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    /* Para que el user menu sea absoluto respecto al header, sino el menu se iría abajo de la ventana */
+}
+
+#logo {
+    margin: 0;
+    width: 350px;
+    height: 90px;
+    background-color: lightgreen;
+}
+
+#user-menu {
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    width: 150px;
+    height: 1.5em;
+    padding: 3px 0 0 0;
+    text-align: right;
+}
+
+#user-menu li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+#user-menu li:first-child {
+    border-right: 1px solid black;
+}
+
+#section-navigation {
+    background-color: red;
+    height: 30px;
+}
