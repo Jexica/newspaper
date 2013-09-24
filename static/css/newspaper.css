@@ -46,3 +46,16 @@ header {
     background-color: red;
     height: 30px;
 }
+
+.news-grid {
+
+}
+
+.news-item {
+    border: 1px solid #ccc;
+}
+
+.news-item img {
+    width: 200px;
+    padding: 10px;
+}
