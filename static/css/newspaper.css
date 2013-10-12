@@ -65,6 +65,7 @@ header {
 
 .news-item {
     border: 1px solid #ccc;
+    display: inline-block;
 }
 
 .news-item img {
