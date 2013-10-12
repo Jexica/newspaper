@@ -59,16 +59,29 @@ header {
     background-color: #fc0;
 }
 
-.news-grid {
-
+#main-content {
+    position: relative;
+    padding-right: 250px;
 }
 
 .news-item {
     border: 1px solid #ccc;
     display: inline-block;
+    vertical-align: top;
+    height: 400px;
+    width: 220px;
+    margin: 5px;
 }
 
 .news-item img {
     width: 200px;
-    padding: 10px;
+}
+
+#right-column {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #14f5ca;
 }
