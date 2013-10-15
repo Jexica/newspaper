@@ -62,6 +62,8 @@ header {
 #main-content {
     position: relative;
     padding-right: 250px;
+    padding-bottom: 20px;
+    min-height: 700px;
 }
 
 .news-item {
@@ -69,12 +71,15 @@ header {
     display: inline-block;
     vertical-align: top;
     height: 400px;
-    width: 220px;
+    width: 237px;
     margin: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .news-item img {
-    width: 200px;
+    width: 235px;
+    height: 200px;
 }
 
 #right-column {
@@ -84,4 +89,23 @@ header {
     bottom: 0;
     width: 250px;
     background-color: #14f5ca;
+}
+
+.column-advert {
+    width: 200px;
+    height: 150px;
+    margin: 30px auto 0;
+}
+
+#column-ad-1 {
+    background-color: pink;
+}
+
+#column-ad-2 {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: lightgray;
+    min-height: 50px;
 }
