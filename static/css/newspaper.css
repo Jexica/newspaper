@@ -67,8 +67,9 @@ header {
 }
 
 .news-item {
-    border: 1px solid #ccc;
+    position: relative;
     display: inline-block;
+    border: 1px solid #ccc;
     vertical-align: top;
     height: 400px;
     width: 237px;
@@ -80,6 +81,16 @@ header {
 .news-item img {
     width: 235px;
     height: 200px;
+}
+
+.news-comment-count {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 6px 10px;
+    border-top-left-radius: 7px;
+    font-size: 0.7em;
+    background-color: lightgray;
 }
 
 #right-column {
