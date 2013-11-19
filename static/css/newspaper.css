@@ -15,9 +15,7 @@ header {
 
 #logo {
     margin: 0;
-    width: 350px;
-    height: 90px;
-    background-color: lightgreen;
+    max-height: 90px;
 }
 
 #user-menu {
