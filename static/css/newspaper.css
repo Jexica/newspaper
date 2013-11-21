@@ -1,11 +1,12 @@
 body {
     margin: 0;
+    background: url("../images/background.gif");
 }
 
 #page-wrapper {
-    background-color: lightyellow;
     width: 1000px;
     margin: 0 auto;
+    background-color: #fff;
 }
 
 header {
@@ -105,7 +106,7 @@ p {
     right: 0;
     bottom: 0;
     width: 250px;
-    background-color: #14f5ca;
+    background-color: lightgray;
 }
 
 .column-advert {
@@ -114,18 +115,10 @@ p {
     margin: 30px auto 0;
 }
 
-#column-ad-1 {
-    background-color: pink;
-}
-
-#column-ad-2 {
-    background-color: lightblue;
-}
-
 footer {
     background-color: lightblue;
-    background: -webkit-linear-gradient(5deg, lightblue, white);
-    background: linear-gradient(5deg, lightblue, white);
+    background: -webkit-linear-gradient(5deg, white, lightblue);
+    background: linear-gradient(5deg, white, lightblue);
     min-height: 50px;
 }
 
